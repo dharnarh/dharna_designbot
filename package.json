@@ -1,0 +1,14 @@
+{
+  "name": "multibot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Umar Farouq",
+  "license": "MIT",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "description": "A bot for society6"
+}
