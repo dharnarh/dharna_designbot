@@ -8,7 +8,22 @@
   "author": "Umar Farouq",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "twit": "^2.2.9"
   },
-  "description": "A bot for society6"
+  "description": "A bot for society6",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humarh-dharnarh/dharna_designbot.git"
+  },
+  "keywords": [
+    "Twitter",
+    "bot",
+    "designbot"
+  ],
+  "bugs": {
+    "url": "https://github.com/humarh-dharnarh/dharna_designbot/issues"
+  },
+  "homepage": "https://github.com/humarh-dharnarh/dharna_designbot#readme"
 }
