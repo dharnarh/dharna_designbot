@@ -1,12 +1,6 @@
-var Twit = require('twit')
-
-var T = new Twit({
-  consumer_key:         'HLjvVkKcam3THnxHpgjMsdxCt',
-  consumer_secret:      'fOncz53XQwP01nlUZoBAJOP3X6HFO6dYzhgzaNZaiTHeuXvRAX',
-  access_token:         '927729599794032640-11LJu5ns54TCf88GWV3GJ8U9UJR6ybp',
-  access_token_secret:  'rQIHWObPhUwtiJZNgD8QFlVeMrYREzJwSt7CO9X5bXdRM',
-  timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
-})
+const Twit = require('twit')
+const config = require('./config')
+const T = new Twit(config)
 
 //T.post('statuses/update', { status: 'hello, been a while!' }, function(err, data, response) {
 //  console.log(data)
